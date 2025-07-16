@@ -13,6 +13,9 @@ erl_crash.dump
 
 # Static assets (optional)
 /priv/static/*
+!/priv/static/.gitkeep
+!/priv/static/style.css
+
 
 # Environment files
 .env
@@ -28,3 +31,12 @@ erl_crash.dump
 # OS-specific
 .DS_Store
 Thumbs.db
+
+
+# Logs
+/log/
+*.log
+
+# Dialyzer PLT files
+*.plt
+*.plt.*
